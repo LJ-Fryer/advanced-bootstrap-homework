@@ -10,13 +10,6 @@ body {
   max-width: 100%;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
-}
-
 h1 {
   font-size: 96px;
 }
@@ -101,4 +94,26 @@ img {
 .email-link:hover {
   text-decoration: underline;
   color: var(--hover-color);
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .homepage-link {
+    display: block;
+    margin: 0 20px;
+  }
+  .app-headings {
+    text-align: center;
+  }
 }
